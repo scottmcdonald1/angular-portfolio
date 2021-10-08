@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Folder } from '../folder';
+import { Folder } from '../Folder';
 import { LinkItem } from '../link-item';
 
 @Component({

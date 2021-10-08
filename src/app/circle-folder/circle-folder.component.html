@@ -1,1 +1,10 @@
-<p>circle-folder works!</p>
+<div class="circle-container">
+    <div id="{{folder.id}}" class="circle-folder button"><h2>{{folder.name}}</h2></div> 
+
+    <div id="{{folder.links.id}}" class="circle-link button" *ngFor="let link of folder.links">
+        <a target="_blank" href="{{link.url}}"><h4>
+            {{link.name}}
+        </h4></a>
+    </div>
+    
+</div>

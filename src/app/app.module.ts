@@ -7,7 +7,7 @@ import { CircleFolderComponent } from './circle-folder/circle-folder.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CircleFolderComponent
+    CircleFolderComponent,
   ],
   imports: [
     BrowserModule

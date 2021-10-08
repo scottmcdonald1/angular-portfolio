@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Folder } from '../folder';
+import { LinkItem } from '../link-item';
 
 @Component({
   selector: 'app-circle-folder',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CircleFolderComponent implements OnInit {
 
+  @Input() folder: Folder;
+
   constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+
+

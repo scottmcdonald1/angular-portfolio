@@ -1,10 +1,12 @@
 export class LinkItem {
-    id: string;
+    dirId: string;
+    elementId: string;
     name: string;
     url: string;
 
-    constructor(id: string, name: string, url: string) {
-        this.id = id;
+    constructor(dirId: string, elementId: string, name: string, url: string) {
+        this.dirId = dirId;
+        this.elementId = elementId;
         this.name = name;
         this.url = url;
     }

@@ -1,0 +1,23 @@
+<nav id="sidenav">
+
+    <div id="burger-bar">
+        <h2 id="burger-icon">☰</h2>
+    </div>
+
+    <div id="sidenav-contents">
+
+        <div id="file-tree">
+            
+            <ul id="dir1" class="dir">
+
+                <li *ngFor="let folder of folders"><label class="dir-item folder-label">{{ folder.name }}</label>
+                    <ul id="{{ folder.dirId }}" class="dir-folder">
+                        <li *ngFor="let link of folder.links" id="link.dirId" class="dir-item link">{{ link.name }}</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    
+</nav>

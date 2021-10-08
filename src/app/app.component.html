@@ -1,4 +1,5 @@
 <div id="page-container">
+  <app-side-nav [folders]="folders"></app-side-nav>
   <div id="side-scroll-container" class="container x mandatory-scroll-snapping" dir="ltr">
     <div class="slide" *ngFor="let folder of folders">
       <app-circle-folder [folder]="folder"></app-circle-folder>

@@ -1,7 +1,8 @@
 import { LinkItem } from "./link-item";
 
 export interface Folder {
-    id: string;
+    dirId: string;
+    elementId: string;
     name: string;
     links: LinkItem[];
 }

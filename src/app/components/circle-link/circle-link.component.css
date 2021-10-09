@@ -1,0 +1,32 @@
+.circle-link.button {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 159, 148);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    opacity: 0;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    z-index: -2;  */
+    cursor: pointer;
+} 
+/* .circle-folder.button.active {
+    width: 210px;
+    height: 210px;
+}
+.button:not(:first-child) {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44);
+    transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44);
+}  */
+
+.circle-link a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+} 

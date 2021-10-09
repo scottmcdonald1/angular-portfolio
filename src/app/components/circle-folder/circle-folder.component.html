@@ -1,0 +1,5 @@
+<div class="circle-container">
+    <div id="{{folder.elementId}}" class="circle-folder button"><h2>{{folder.name}}</h2></div> 
+    
+    <app-circle-link *ngFor="let link of folder.links" [link]="link"></app-circle-link>
+</div>

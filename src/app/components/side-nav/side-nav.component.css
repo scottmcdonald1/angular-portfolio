@@ -16,7 +16,7 @@
     height: calc(80vh - 60px);
     align-items: center;
     flex-direction: column;
-    display: flex;
+    display: none;
 } #sidenav-contents.active {
     display: flex;
 }

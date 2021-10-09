@@ -3,6 +3,13 @@
     overflow: hidden; 
     background-color: #547786;
 } 
+
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 /*
 #page-container {
     display: flex;

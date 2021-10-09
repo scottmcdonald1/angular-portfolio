@@ -1,0 +1,21 @@
+.circle-container {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} .circle-folder {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(250, 186, 178);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} .circle-folder h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}

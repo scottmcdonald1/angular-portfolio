@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Folder } from '../Folder';
+import { Folder } from '../../Folder';
 
 @Component({
   selector: 'app-side-nav',
@@ -13,6 +13,11 @@ export class SideNavComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleActive(elementId) {
+    const element = document.getElementById(elementId);
+    element.classList.toggle('active');
   }
 
 }

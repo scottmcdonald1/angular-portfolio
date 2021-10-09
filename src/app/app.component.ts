@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Folder } from './Folder';
 import { FOLDERS } from './folders';
-// import { LinkItem } from './link-item';
 
 @Component({
   selector: 'app-root',

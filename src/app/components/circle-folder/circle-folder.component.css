@@ -18,4 +18,7 @@
 } .circle-folder h2 {
     font-family: 'Roboto', sans-serif;
     color: white;
+} .circle-folder.button.active {
+    width: 210px;
+    height: 210px;
 }

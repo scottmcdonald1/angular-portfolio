@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { LinkItem } from 'src/app/link-item';
+import { LinkItem } from 'src/app/classes/LinkItem';
 
 @Component({
   selector: 'app-circle-link',
@@ -10,9 +10,11 @@ export class CircleLinkComponent implements OnInit {
 
   @Input() link: LinkItem;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
+
 
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Folder } from './Folder';
+import { Folder } from './classes/Folder';
 import { FOLDERS } from './folders';
 
 @Component({

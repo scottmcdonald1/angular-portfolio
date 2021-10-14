@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Folder } from '../../Folder';
+import { Folder } from '../../classes/Folder';
 
 @Component({
   selector: 'app-circle-folder',

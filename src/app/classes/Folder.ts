@@ -1,4 +1,4 @@
-import { LinkItem } from "./link-item";
+import { LinkItem } from "./LinkItem";
 
 export interface Folder {
     index: number;

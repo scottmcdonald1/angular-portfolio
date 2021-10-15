@@ -2,7 +2,8 @@
 id="{{link.elementId}}" 
 class="circle-link button"
 [style.top]="link.getTopStyling(link.index, link.folderCount)"
-[style.left]="link.getLeftStyling(link.index, link.folderCount)">
+[style.left]="link.getLeftStyling(link.index, link.folderCount)"
+[style.transitionDelay]="link.getTransitionDelay(link.index)">
     <a target="_blank" href="{{link.url}}">
         <h4>{{link.name}}</h4>
     </a>

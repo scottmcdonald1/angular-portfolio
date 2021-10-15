@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Folder } from './classes/Folder';
-import { FOLDERS } from './folders';
+import { FOLDERS } from './mock-folders';
 
 @Component({
   selector: 'app-root',

@@ -28,7 +28,11 @@ export class LinkItem {
         let top: number = ((350 / 2) - posY);
         return `${top}px`
     }
-    
+
+    getTransitionDelay(index: number):string {
+        let delay = index / 10;
+        return `${delay}s`;
+    }    
 }
 
 
